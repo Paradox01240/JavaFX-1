@@ -28,7 +28,7 @@ This JavaFX application demonstrates the use of various graphical elements, incl
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/your-repository.git
+   git clone https://github.com/Paradox01240/JavaFX-1.git
    ```
 2. Navigate to the project directory:
    ```sh
