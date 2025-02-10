@@ -1,32 +1,64 @@
-# JavaFX Scene and Stage Example
+# JavaFX Shapes and Image Display Application
 
-This project demonstrates how to create and switch between scenes using JavaFX.
+## Description
+
+This JavaFX application demonstrates the use of various graphical elements, including text, shapes, and images, in a JavaFX scene. The application features a black background and displays different shapes, including a line, rectangle, polygon, and circle. Additionally, an image is loaded and displayed within the scene.
 
 ## Features
 
-- Basic JavaFX `Stage` and `Scene` setup
-- Button interaction to switch scenes
+- Displays a welcome message (`Hello, World!`) with a custom font and color.
+- Renders various shapes:
+  - **Line** with a white stroke and rotation.
+  - **Rectangle** with a red fill.
+  - **Polygon** with a blue fill.
+  - **Circle** with a green fill.
+- Loads and displays an image (`logo.png`).
+- Adds an application icon using `logo.png`.
+- Sets the application window size to 750x750 pixels.
+- Disables window resizing.
+- Enables full-screen mode with an exit hint (`Press Q`) and an exit key (`Q`).
 
-## Screenshot
+## Requirements
 
+- Java Development Kit (JDK) 11 or later
+- JavaFX SDK installed
+- A valid `logo.png` image file in the project directory
 
+## Installation and Usage
 
-## How to Run
-
-1. Install Java and JavaFX SDK
-2. Compile and run using:
+1. Clone the repository:
    ```sh
-   javac --module-path /path/to/javafx/lib --add-modules javafx.controls Main.java
-   java --module-path /path/to/javafx/lib --add-modules javafx.controls Main
+   git clone https://github.com/yourusername/your-repository.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd your-repository
+   ```
+3. Compile and run the application:
+   ```sh
+   javac --module-path "path/to/javafx/lib" --add-modules javafx.controls,javafx.graphics Main.java
+   java --module-path "path/to/javafx/lib" --add-modules javafx.controls,javafx.graphics Main
    ```
 
-## Dependencies
+## File Structure
 
-- Java 11+
-- JavaFX SDK
+```
+/your-repository
+├── src
+│   ├── Main.java
+│   ├── logo.png
+├── README.md
+```
+
+## Notes
+
+- Ensure that `logo.png` is available in the project directory; otherwise, the application may throw an exception.
+- If running JavaFX separately, make sure to specify the correct module path.
 
 ## License
 
-MIT License
+This project is licensed under the MIT License.
 
-JAVAFX Sceans and Stage 
+## Author
+
+Tharusha Madushan
